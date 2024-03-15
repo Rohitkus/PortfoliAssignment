@@ -1,0 +1,51 @@
+.v1 {
+  margin-left: -10px;
+  position: relative;
+  img {
+    width: 300px;
+  }
+}
+
+.v2img {
+  position: absolute;
+  right: -10px;
+  width: 50px;
+}
+
+.v3img {
+  margin-left: 240px;
+  width: 260px;
+ 
+}
+.v4img {
+  margin-left: 450px;
+  width: 350px;
+  margin-top: -30px;
+}
+.about {
+  position: relative;
+}
+
+.aboutcontiner {
+  img {
+    margin-left: -10px;
+  }
+  position: absolute;
+  top: 0;
+  display: flex;
+  p {
+    width: 890px;
+    font-size: 20px;
+
+    span {
+      font-weight: 700;
+    }
+  }
+}
+.hrline {
+  height: 2px;
+  border-width: 0;
+  color: gray;
+ 
+  margin: auto;
+}

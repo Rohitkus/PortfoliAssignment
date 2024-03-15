@@ -1,0 +1,82 @@
+.hero{
+    padding: 100px 70px;
+}
+.herocontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 50px;
+   
+}
+.leftcontainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    margin-left: 70px;
+  
+}
+
+.textcont button{
+    font-size:36px;
+    font-weight: 700;
+    color:white;
+    padding: 8px 28px;
+    border: none;
+    border-radius: 50px 30px 30px 0px;
+    background: linear-gradient(90deg, rgba(50,246,246,1) 21%, rgba(166,167,159,1) 94%);
+}
+.textcont h1{
+    font-size:64px;
+    line-height: 100px;
+    
+    span{
+        color:#737373;
+        text-decoration: underline solid black 8% ; 
+        border-radius: 10px;
+    }
+
+}
+.textcont p{
+    font-size: 20px;
+    color:#737373;
+    
+    
+}
+.rightcontainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+  
+}
+.btns{
+    margin-top: 50px;
+}
+
+.downloadbtn{
+    background: linear-gradient(90deg, rgba(223,83,12,1) 9%, rgba(253,153,61,1) 37%);
+    padding: 12px 17px;
+    color:white;
+    border:3px solid white;
+    font-weight: 700;
+    font-size:20px;
+    border-radius: 10px;
+    box-shadow: 1px 6px 15px #A9A9A9; 
+   
+}
+.touchbtn{
+    background: rgb(67,67,67);
+    background: linear-gradient(90deg, rgba(67,67,67,1) 18%, rgba(0,0,0,1) 100%);
+    padding: 12px 17px;
+    color:white;
+    border:3px solid white;
+    font-weight: 700;
+    font-size:20px;
+    border-radius: 10px;
+    box-shadow: 1px 6px 15px #A9A9A9;
+    margin-left: 25px;
+   
+}
